@@ -1,0 +1,88 @@
+https://codepen.io/awb313/pen/oNXjgjr?editors=1100
+
+1. What is Semantic HTML? 
+The syntax used to organize code, make it more functional, and to make it readable for others.
+2. What is HTML used for? 
+it is the backbone for websites that tells computers how certain elements should be arranged on a page
+3. What is an attribute and where do we put it? 
+they provide more info aboutt an elements. <element attribute = ""></element>
+4. What is the h1 tag used for? How many times should I use it on a page?
+H1 stands for header 1 and is also the largest header type. Should be used once for title
+5. Name two tags that have required attributes
+img and a
+6. What do we put in the head of our HTML document? 
+info for other developers about the code
+7. What is an id? 
+an attribute that specifies one and only one element
+8. What elements can I add an id to? 
+all
+9. How many times can I use the same id on a page? 
+once
+10. What is a class? 
+a specific attribute that can be added to multiple elements
+11. What elements can I add a class to? 
+any
+12. How many times can I use the same class on a page? 
+unlimited
+13. How do I get my link to open in a new tab?
+target="_blank"
+14. What is the alt attribute used for? 
+it is used to specify an alternate text for an image
+15. How do I reference an id?
+#idname{}
+16. What is the difference between a section and a div
+none in practice but a section is more specific than a div
+17. What is CSS used for? 
+to stylize your html elements ("decorate the house"
+18. How to we select an element? Example - every h2 on the page
+h2{}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+an Id can be used to identify one element but a class can be used to select multiple. A class is useful if you would like to apply the same attributes to multiple lines of code
+20. How do we select classes in CSS?
+write a period character followed by the name of the class
+21. How do we select a p element with a single class of “human””?
+p.human
+22. What is a parent child selector? When would this be useful?
+a parent child selector selects all elements that are a direct child of the specified element. It is useful when trying to select multiple child elements that are already part of a parent class
+23. How do you select all links within a div with the class of sidebar?
+.navigation-div : a:link {}
+24. What is a pseudo selector?
+a selector that selects elements in a specific state, i.e. if they are being hovered over, are the only their type, etc.
+25. What do we use the change the spacing between lines?
+use the line-height property
+26. What do we use to change the spacing between letters?
+use the letter-spacing property
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform:uppercase; text-transform:lowercase; text-transform:capitalize;
+28. How do I add a 1px border around my div that is dotted and black?
+border: 1px dotted black
+29. How do I select everything on the page?
+edit->select all 
+30. How do I write a comment in CSS?
+/* comment */
+31. How do I find out what file I am in, when I am using the command line? 
+pwd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+rm
+34. Why should I use version control? 
+version control allows me to access past versions of my code in order to be able to reintegrate past versions or retrieve a past version should my code get corrupted
+35. How often should I commit to github?
+Often, after any major changes and whenever it makes sense
+36. What is the command we would use to push our repo up to github? 
+git push -u origin repo-name
+37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+inline elements may contain only data and other inline elements, meaning you can't put block elements inside of them. Inline elements do not force a new line to begin in the 
+2. What happens when an element is positioned absolutely? 
+the element is removed from the normal document flow, so no space is created for the element in the page layout
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+height:auto; width:set;
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+block: h1,h2,h3; inline:map, output; inline-block: omg
+5. In your own words, explain the box model. What is the fix for the box model? 
+Describes the way in which elements are treated in terms of spacing and decoration. The center of the box contains the content of your element, and then around that you can add padding then border then margin- all of which you can restyle
